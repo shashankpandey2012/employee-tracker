@@ -1,0 +1,135 @@
+body{
+    background-color: lightgray;
+}
+
+.room_container{
+    width: 1080px;
+    padding: 60px 30px;
+    border: 1px solid #c0ccda;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.table_container{
+    background: #c0ccda;
+    width: 300px;
+    height: 150px;
+}
+
+.chair_container{
+    height: 40px;
+    width: 40px;
+}
+
+.chair_container div{
+    margin-right: 25px;
+    margin-left: 25px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.chair_top{
+
+}
+
+.chair_bottom{
+
+}
+
+.disp_inli{
+    display: inline-flex;
+}
+
+.table_space{
+    width:300px;
+    margin-left: 25px;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.disp_block{
+    display: block;
+}
+
+.filter_options{
+    width: 1080px;
+    float: right;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.clr{
+    clear: both;
+}
+.half-circle {
+
+    height:30px;
+    width:30px;
+    -webkit-border-radius:75px;
+    -moz-border-radius:75px;
+}
+
+.employee_chairs{
+    position: relative;
+
+}
+
+.employee_details{
+    position: absolute;
+    background: #fff;
+    z-index: 10;
+    min-width: 240px !important;
+    min-height: 100px;
+    padding: 20px;
+    border: 1px solid #c0ccda;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: auto;
+
+}
+
+h2{
+    margin: 0px;
+}
+.table_container
+{   display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.table_container h2{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.icon{
+    margin-bottom: auto;
+    margin-top: 0px;
+}
+
+.input_container{
+    align-items: right;
+
+}
+
+.input{
+    font-size: 20px;
+    margin-left: 100px;
+    border: 1px solid #000000;
+    font-weight: 500;
+}
+
+.filter_container{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 150px;
+}
+
+.checkbox-grid li {
+    display: block;
+    float: left;
+    width: 25%;
+}
